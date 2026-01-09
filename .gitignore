@@ -1,0 +1,117 @@
+############################
+# Python / Conda / venv
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.env
+.venv
+venv/
+env/
+agentic/
+*.egg-info/
+.eggs/
+
+############################
+# Jupyter / IPython
+############################
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+############################
+# OS / Editor noise
+############################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+############################
+# Logs & temporary files
+############################
+*.log
+*.tmp
+*.bak
+
+############################
+# Experiment outputs (HEAVY)
+############################
+outputs/
+results/
+logs/
+runs/
+
+############################
+# Plots, figures, animations
+############################
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.gif
+*.mp4
+*.avi
+
+############################
+# Simulation & rollout data
+############################
+*.json
+*.csv
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+############################
+# Model artifacts / checkpoints
+############################
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+############################
+# LaTeX build artifacts
+############################
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+############################
+# ffmpeg / matplotlib cache
+############################
+.matplotlib/
+.cache/
+
+############################
+# HuggingFace / Transformers
+############################
+.cache/huggingface/
+.cache/torch/
+.cache/transformers/
+
+############################
+# CUDA / PyTorch
+############################
+*.cuda
+*.cuo
+
+############################
+# Data directories (keep structure, not content)
+############################
+data/*
+!data/.gitkeep

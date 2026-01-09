@@ -1,0 +1,58 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            nk6balilnibyyjkbscpmrnulzgu2o2yk:
+                codePath: experiments/train_agent.py
+                codePathLocal: experiments/train_agent.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1403789410304"
+                        used: "397727477760"
+                email: birirspace@gmail.com
+                executable: /opt/miniconda/envs/agentic/bin/python
+                gpu: NVIDIA RTX A5000
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 8192
+                      memoryTotal: "25757220864"
+                      name: NVIDIA RTX A5000
+                      uuid: GPU-7b08785d-4e8d-47b2-bb9b-43165a218498
+                host: a16ef3bb3a00
+                memory:
+                    total: "132352053248"
+                os: Linux-6.17.0-7-generic-x86_64-with-glibc2.31
+                program: /root/workspace/agentic_nlp_rl/experiments/train_agent.py
+                python: CPython 3.11.14
+                root: /root/workspace/agentic_nlp_rl
+                startedAt: "2026-01-08T01:34:10.984477Z"
+                writerId: nk6balilnibyyjkbscpmrnulzgu2o2yk
+        m: []
+        python_version: 3.11.14
+        t:
+            "1":
+                - 1
+                - 49
+                - 51
+                - 105
+            "2":
+                - 1
+                - 49
+                - 51
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.14
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+dataset:
+    value: GoEmotions
+env:
+    value: offline-dialogue

@@ -1,0 +1,115 @@
+# -------------------------
+# Core Python & Utilities
+# -------------------------
+numpy
+scipy
+pandas
+tqdm
+pyyaml
+omegaconf
+dataclasses
+typing-extensions
+
+# -------------------------
+# Deep Learning Frameworks
+# -------------------------
+torch
+torchvision
+torchaudio
+accelerate
+
+# -------------------------
+# Reinforcement Learning
+# -------------------------
+gym
+gymnasium
+stable-baselines3
+pettingzoo
+supersuit
+
+# -------------------------
+# NLP & Language Models
+# -------------------------
+transformers
+tokenizers
+datasets
+sentencepiece
+evaluate
+
+# -------------------------
+# Text-Based RL Environments
+# -------------------------
+textworld
+alfworld
+scienceworld
+
+# -------------------------
+# Reward Modeling & RLHF
+# -------------------------
+trl
+scikit-learn
+xgboost
+
+# -------------------------
+# Verification & Hallucination Detection
+# -------------------------
+spacy
+nltk
+selfcheckgpt
+language-tool-python
+
+# -------------------------
+# Calibration & Uncertainty
+# -------------------------
+netcal
+uncertainty-toolbox
+
+# -------------------------
+# Evaluation Metrics
+# -------------------------
+sacrebleu
+rouge-score
+bert-score
+
+# -------------------------
+# Experiment Tracking & Logging
+# -------------------------
+tensorboard
+wandb
+rich
+
+# -------------------------
+# Visualization
+# -------------------------
+matplotlib
+seaborn
+plotly
+
+# -------------------------
+# Tool Use & Agents
+# -------------------------
+langchain
+faiss-cpu
+duckduckgo-search
+
+# -------------------------
+# Jupyter & Analysis
+# -------------------------
+jupyter
+ipykernel
+notebook
+
+# -------------------------
+# Testing & Code Quality
+# -------------------------
+pytest
+pytest-cov
+black
+isort
+flake8
+
+# -------------------------
+# Optional (Speed / GPU / Distributed)
+# -------------------------
+deepspeed
+ray
